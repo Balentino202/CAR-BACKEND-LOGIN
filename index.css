@@ -1,0 +1,115 @@
+body{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  background-image: url(/img/login\ pic.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30rem;
+}
+
+.col-md-2 .class2 {
+  padding-top: 30px;
+}
+
+
+
+.content {
+  background-color: #000;
+  border-radius: 10px;
+  width: 300px;
+  padding: 0px 70px;
+  height: 560px;
+  margin: 5rem 0rem 0rem 28rem;
+}
+
+h2 {
+  text-align: center;
+  color: #EC8206;
+  padding: 30px 0px 0px 0px ;
+}
+
+.content p {
+  text-align: center;
+  color: #fff;
+  padding-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 10px;
+  color: #b1b1b1;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 3px;
+  color: #fff;
+  border: 1px solid #EC8206;
+  border-radius: 5px;
+  background-color: #000;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  color: #000000;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #EC8206;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.google-button {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid white;
+  background-color: #000000;
+  border-radius: 5px;
+  color: #b1b1b1;
+  font-size: 16px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+.google-button img{
+  width: 30px;
+  height: 25px;
+  padding-right: 10px;
+  vertical-align: middle;
+}
+.content p {
+  text-align: center;
+  color: #fff;
+  padding-bottom: 10px;
+}
+
+.text-center a{
+  color: #EC8206;
+  text-decoration: none;
+  padding-bottom: 0.5rem;
+}
+.text-centers a{
+  color: #b1b1b1;
+  text-decoration: none;
+  margin-top: 0%;
+  padding-top: 0%;
+}
+/* Media Query for responsive design */
+@media (max-width: 768px) {
+  .content  {
+    width: auto;
+    margin: 10rem 0.5rem 0rem 0.5rem;
+  }
+  body{
+    height: 46rem;
+  }
+}

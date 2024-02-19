@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/dashborad.css">
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+  <div class="class2">
+    <div class="container">
+      <h2>Create an Account</h2>
+      <p>Already have an account <a href="/index.html">Login</a></p>
+      <form id="signup-form">
+        <div class="form-group">
+          <label for="firstName">First Name:</label>
+          <input type="text" id="firstName" placeholder="john" name="firstName" required>
+        </div>
+        <div class="form-group">
+          <label for="lastName">Last Name:</label>
+          <input type="text" id="lastName" placeholder="micheal" name="lastName" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" placeholder="michealjohn@gmail.com" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="password">Password:</label>
+          <input type="password" id="password" placeholder="*******"  name="password" required>
+        </div>
+        <div class="form-group">
+          <label for="confirmPassword">Confirm Password:</label>
+          <input type="password" id="confirmPassword" placeholder="*******" name="confirmPassword" required>
+        </div>
+        <input type="submit" value="Register">
+      </form>
+      <div class="social-login">
+        <button id="facebookBtn"><img src="/img/Facebook-logo-removebg-preview.png" alt=""> <a href="#">Continue with Facebook</a></button>
+        <button id="googleBtn"><img src="/img/Google__G__Logo.svg-removebg-preview.png" alt=""> <a href="#">Continue with Google</a></button>
+      </div>
+    </div>
+  </div>
+    <script src="/dashboard.js"defer></script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/FAQ.css">
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+</head>
+<body>
+  <header>
+    <img src="/img/Capture.PNG" alt="">
+    <div class="nav">
+      <div class="search-container">
+        <input type="text" id="search" placeholder="Enter your search">
+        <button onclick="search()">Search</button>
+      </div>
+      <div class="ul">
+        <div class="li"><a href="#" id="bell-icon"><i class="fa fa-bell"></i></a></div>
+        <div class="li"><a href="#" id="brightness-icon"><i class="fa fa-sun-o" aria-hidden="true"></i></a></div>
+      </div>
+    </div>
+    <div class="profile">
+      <img src="/img/businessman.png" alt="">
+      <p>Micheal Joseph<br>Marketing Administrator</p>
+    </div>
+    <nav>
+        <ul class="menu">
+                  <li class="dropdown-item">
+                    <!-- <div class="dropdown-title" onclick="toggleDropdown()">
+                      <h2><a href="/ahome.html"><i class="fa fa-circle" aria-hidden="true"></i>Dashboard</a></h2>
+                      <button class="dropdown"><i class="fa fa-angle-down"></i></button>
+                    </div>
+                    <div class="dropdown-content" id="dropdown-down">
+                      <p><a href="/index.html">Dashboard 1</a></p>
+                      <p><a href="/dashboard.html">Dashboard 2</a></p>
+                    </div> -->
+                  </li>
+                       
+            <li><a href="/top.html"><i class="fa fa-circle" aria-hidden="true"></i>Top Header</a></li>
+              <li><a href="/F&A.html"><i class="fa fa-circle" aria-hidden="true"></i>About/Feature</a></li>
+              <li><a href="/FAQ.html"><i class="fa fa-circle" aria-hidden="true"></i>FAQ</a></li>
+            </ul>
+      </nav>         
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+  </header>
+        <audio id="bell-sound">
+          <source src="/img/achive-sound-132273.mp3" type="audio/mpeg">
+        </audio>
+
+        <div class="col-md-2">
+            <div class="class1">
+              <!-- <p>Page1</p>
+              <div class="faq-item">
+                <div class="faq-title" onclick="toggleFAQ(1)">
+                  <h3><a href="/ahome.html"><i class="fa fa-circle" aria-hidden="true"></i>Dashboard</a></h3>
+                  <button class="dropdown-btn"><i class="fa fa-angle-down"></i></button>
+                </div>
+                <div class="faq-content" id="faq1">
+                  <p><a href="/index.html">Dashboard 1</a></p>
+                  <p><a href="/dashboard.html">Dashboard 2</a></p>
+                </div>
+              </div> -->
+              <h4><a href="/top.html"><i class="fa fa-circle" aria-hidden="true"></i>Top Header</a></h4>
+              <h4><a href="/F&A.html"><i class="fa fa-circle" aria-hidden="true"></i>About/Feature</a></h4>
+              <h4><a href="/FAQ.html"><i class="fa fa-circle" aria-hidden="true"></i>FAQ</a></h4>
+              <button class="sign-out" id="signOutButton">Log out</button>
+            </div>
+
+            <div id="chat-container">
+              <div id="chat-messages"></div>
+              <div class="chat-input-container">
+                  <input type="text" id="chat-input" placeholder="Type your message..." />
+                  <button id="send-button">Send</button>
+              </div>
+          </div>
+          </div>  
+            
+          
+      <script src="/FAQ.js" defer></script>
+    </body>
+    </html>

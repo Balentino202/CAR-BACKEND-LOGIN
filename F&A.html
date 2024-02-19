@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/F&A.css">
+    <title>Document</title>
+</head>
+<body>
+  <header>
+    <img src="/img/Capture.PNG" alt="">
+    <div class="nav">
+      <div class="search-container">
+        <input type="text" id="search" placeholder="Enter your search">
+        <button onclick="search()">Search</button>
+      </div>
+      <div class="ul">
+        <div class="li"><a href="#" id="bell-icon"><i class="fa fa-bell"></i></a></div>
+        <div class="li"><a href="#" id="brightness-icon"><i class="fa fa-sun-o" aria-hidden="true"></i></a></div>
+      </div>
+    </div>
+    <div class="profile">
+      <img src="/img/businessman.png" alt="">
+      <p>Micheal Joseph<br>Marketing Administrator</p>
+    </div>
+    <nav>
+        <ul class="menu">
+                  <li class="dropdown-item">
+                    <!-- <div class="dropdown-title" onclick="toggleDropdown()">
+                      <h2><a href="/ahome.html"><i class="fa fa-circle" aria-hidden="true"></i>Dashboard</a></h2>
+                      <button class="dropdown"><i class="fa fa-angle-down"></i></button>
+                    </div>
+                    <div class="dropdown-content" id="dropdown-down">
+                      <p><a href="/index.html">Dashboard 1</a></p>
+                      <p><a href="/dashboard.html">Dashboard 2</a></p>
+                    </div> -->
+                  </li>
+                       
+                  <li><a href="/top.html"><i class="fa fa-circle" aria-hidden="true"></i>Top Header</a></li>
+                  <li><a href="/F&A.html"><i class="fa fa-circle" aria-hidden="true"></i>About/Feature</a></li>
+                  <li><a href="/FAQ.html"><i class="fa fa-circle" aria-hidden="true"></i>FAQ</a></li>
+                </ul>
+      </nav>         
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+  </header>
+        <audio id="bell-sound">
+          <source src="/img/achive-sound-132273.mp3" type="audio/mpeg">
+        </audio>
+
+        <div class="col-md-2">
+            <div class="class1">
+              <!-- <div class="faq-item">
+                <div class="faq-title" onclick="toggleFAQ(1)">
+                  <h3><a href="/ahome.html"><i class="fa fa-circle" aria-hidden="true"></i>Dashboard</a></h3>
+                  <button class="dropdown-btn"><i class="fa fa-angle-down"></i></button>
+                </div>
+                <div class="faq-content" id="faq1">
+                  <p><a href="/index.html">Dashboard 1</a></p>
+                  <p><a href="/dashboard.html">Dashboard 2</a></p>
+                </div>
+              </div> -->
+              <h4><a href="/top.html"><i class="fa fa-circle" aria-hidden="true"></i>Top Header</a></h4>
+              <h4><a href="/F&A.html"><i class="fa fa-circle" aria-hidden="true"></i>About/Feature</a></h4>
+              <h4><a href="/FAQ.html"><i class="fa fa-circle" aria-hidden="true"></i>FAQ</a></h4>
+              <button class="sign-out" id="signOutButton">Log out</button>
+            </div>
+
+            <div class="class2">
+              <div class="section-container">
+                <div class="aboutus-container">
+                  <div class="about-us">
+                  <h1>ABOUT US</h1>
+                  <h4>what you like about us :</h4>
+                  <textarea class="featureComment" placeholder="Add a comment"></textarea><br>
+                  <button id="submitButton" class="submit-button">submit</button>
+                </div>
+                </div>
+
+                <div class="feature">
+                  <h1>FEATURE</h1>
+                  <h4>Chose your best  feature</h4>
+                  <div class="dropdown-container">
+                    <div class="dropdown-main" onclick="toggleDropdown(1)">
+                      <input type="text" id="search">
+                      <button class="dropdown-arrow"><i class="fa fa-angle-down"></i></button>
+                    </div>
+                    <div class="dropdown-section" id="dropdown-section">
+                      <p><a href="">Dashboard 1</a></p>
+                      <p><a href="">Dashboard 2</a></p>
+                    </div>
+                  </div>
+                  
+                  <h4>what you can say about our feature :</h4>
+                  <textarea class="featureComment" placeholder="Add a comment"></textarea><br>
+                  <button id="submitButton" class="submit-button">submit</button>
+                </div>
+              </div>
+          </div>
+          
+    <script src="/F&A.js" defer></script>
+</body>
+</html>

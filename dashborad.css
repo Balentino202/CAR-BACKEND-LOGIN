@@ -1,0 +1,131 @@
+body{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  background-image: url(/img/login\ pic.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30rem;
+}
+
+.col-md-2 .class2 {
+  width: 85%;
+  padding-top: 30px;
+  margin-left: 16%;
+  display: flex; /* Updated line */
+}
+
+.container {
+  width: 400px;
+  height: 530px;
+  background-color: #000;
+  padding: 20px 20px 40px 20px;
+  border-radius:10px;
+  margin: 4rem 0rem 0rem 28rem;
+}
+
+h2 {
+  text-align: center;
+  color: #EC8206;
+}
+.container p{
+color: #ffffff;
+padding: 10px 0px;
+}
+
+.container p a{
+  color: #EC8206;
+ text-decoration: none;
+}
+.form-group {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  color: #b1b1b1;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 95%;
+  padding: 10px;
+  color: #ffffff;
+  border-radius: 3px;
+  background-color: #000;
+  border: 1px solid #EC8206;
+}
+
+input[type="submit"] {
+  width: 95%;
+  padding: 10px;
+  border: none;
+  color: #000000;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #EC8206;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.social-login {
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+}
+
+.social-login button {
+  margin-right: 10px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 3px;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.social-login #facebookBtn {
+  background-color: #000000;
+  border: 1px solid white;
+  vertical-align: middle
+}
+
+.social-login #googleBtn {
+  background-color: #000000;
+  border: 1px solid white;
+  vertical-align: middle;
+}
+#googleBtn img{
+  width: 20px;
+  height: 20px;
+  padding-right: 10px;
+  vertical-align: middle;
+}
+
+.social-login #googleBtn a{
+  color: #fff;
+ text-decoration: none;
+}
+
+#facebookBtn img{
+  width: 40px;
+  height: 25px;
+  padding-right: 10px;
+  vertical-align: middle;
+}
+
+.social-login #facebookBtn a{
+  color: #fff;
+ text-decoration: none;
+}
+
+/* Media Query for responsive design */
+@media (max-width: 768px) {
+  .container {
+    width: auto;
+    margin: 10rem 0.5rem 0rem 0.5rem;
+  }
+  body{
+    height: 46rem;
+  }
+}
